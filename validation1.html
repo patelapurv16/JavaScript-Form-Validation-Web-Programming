@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<title>Validation Form</title>
+		<meta charset="UTF-8">
+		<script type="text/javascript" src="./validation1.js"></script> 
+	</head>
+	<body>
+		<header><h1>Validation Form</h1></header>
+		<form id="validationform" action="validation2.html">
+			<fieldset>
+				<div id= "result">
+				<legend>Validation Form</legend>
+				<p id="Firstname">
+						<legend for="firstname">First Name</legend>
+						<input id="firstname" name="firstname" type="text"/>
+				</p>
+				<p id ="Lastname">
+					<legend for="lastname">Last Name</legend>
+					<input id="lastname" name="lastname" type="text"/>
+				</p>
+				<p id="Gender">
+					<legend for="gender">Gender</legend>
+					<select name="gender" id="gender">
+						<option value="0">Choose an Option</option>
+						<option value="1">Female</option>
+						<option value="2">Male</option>
+					</select>
+				</p>
+				<p id="State">
+					<legend for="state">State</legend>
+					<select name = "state" id="state">
+						<option value="0">Choose an Option</option>
+						<option value = "1">Arizona</option>
+						<option value = "2">California </option>
+						<option value = "3">Colorado</option>
+						<option value = "4">Florida</option>
+						<option value = "5">Hawaii</option>
+						<option value = "6">Iowa</option>
+						<option value = "7">New York</option>
+						<option value = "8">Texas</option>
+						<option value ="9">Virgina</option>
+						<option value = "10">Washington</option> 
+					</select>
+				</p>
+				<p align="center">
+					<input type="button" id="submit"  name="submit" value="Continue" onclick="sentHTML()"/>
+
+				</p>
+			</div> 
+			</fieldset>
+		</form>
+	</body>
+	<script src="validation1.js" type="text/javascript">
+
+	
+	</script>
+	</html>
